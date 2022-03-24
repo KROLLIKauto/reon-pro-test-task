@@ -1,0 +1,115 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+input {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border: none;
+  outline: none;
+}
+
+body {
+  background-color: rgb(53, 53, 53);
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-inp {
+  font-size: 30px;
+  padding-left: 20px;
+  display: block;
+  margin: 20px auto 10px;
+  width: 25%;
+  height: 50px;
+  border-radius: 20px;
+  background-color: rgb(196, 196, 196);
+}
+
+.main-but {
+  text-align: center;
+  line-height: 29px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: rgb(199, 199, 199);
+  margin: auto auto;
+  background-color: rgba(245, 107, 222, 0.4);
+  width: 10%;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid rgb(196, 196, 196);
+}
+
+.AllUsers  {
+  justify-content: space-around;
+  display: flex;
+  width: 80%;
+  margin: auto auto;
+}
+
+.main-list{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  align-items: center;
+}
+
+.button-next-10-posts, .button-previous-10-posts {
+  margin-top: 10%;
+  height: 60px;
+  width: 150px;
+  border-radius: 25px;
+}
+
+.button-next-10-posts:hover, .button-previous-10-posts:hover {
+  cursor: pointer;
+}
+
+.main-str {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 5%;
+  width: 100%;
+}
+
+.numberPost, .userBody, .userTitle {
+  border: 1px solid black;
+  background-color: rgb(204, 204, 204);
+}
+
+.delete-button {
+  background-color: rgb(255, 170, 170);
+  text-align: center;
+}
